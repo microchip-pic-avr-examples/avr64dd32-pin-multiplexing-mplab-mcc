@@ -46,7 +46,7 @@ More details and code examples on the AVR64DD32 can be found at the following li
 
 ## Operation
 
-To program the Curiosity Nano board with this MPLAB® X project, follow the steps provided in the [How to Program Curiosity Nano board](#how-to-program-curiosity-nano-board) chapter.<br><br>
+To program the Curiosity Nano board with this MPLAB® X project, follow the steps provided in the [How to Program the Curiosity Nano Board](#how-to-program-the-curiosity-nano-board) chapter.<br><br>
 
 ## 1. Charlieplexing
 
@@ -663,7 +663,7 @@ This code example shows how to use a single GPIO pin to drive both an LED and a 
 - - -
 
 
-## How to Program Curiosity Nano board
+## How to Program the Curiosity Nano Board
 
 This chapter shows how to use the MPLAB® X IDE to program an AVR® device with an Example_Project.X. This can be applied for any other projects.
 
@@ -711,7 +711,7 @@ This chapter shows how to use the MPLAB® X IDE to program an AVR® device with 
         - [`CharlieOff`](#charlieoff)
         - [`CharlieToggle`](#charlietoggle)
         - [`CharlieAll`](#charlieall)
-        - [`LED_demo`](#led_demo)
+        - [`LED_demo`](#leddemo)
       - [1.2.3 User Callback Function](#123-user-callback-function)
         - [`CharlieHandler`](#charliehandler)
     - [1.3 Library Usage Examples](#13-library-usage-examples)
@@ -727,14 +727,14 @@ This chapter shows how to use the MPLAB® X IDE to program an AVR® device with 
     - [2.1 Implementation Details](#21-implementation-details)
       - [2.1.1 Overview](#211-overview)
       - [2.1.2 Functions](#212-functions)
-        - [`single_pins_init`](#single_pins_init)
-        - [`multiplexed_pin_set_low`](#multiplexed_pin_set_low)
-        - [`multiplexed_pin_set_high`](#multiplexed_pin_set_high)
-        - [`multiplexed_pin_toggle`](#multiplexed_pin_toggle)
-        - [`multiplexed_pin_read`](#multiplexed_pin_read)
+        - [`single_pins_init`](#singlepinsinit)
+        - [`multiplexed_pin_set_low`](#multiplexedpinsetlow)
+        - [`multiplexed_pin_set_high`](#multiplexedpinsethigh)
+        - [`multiplexed_pin_toggle`](#multiplexedpintoggle)
+        - [`multiplexed_pin_read`](#multiplexedpinread)
       - [2.1.3 User Callback Function](#213-user-callback-function)
-        - [`multiplexed_pin_input_handler`](#multiplexed_pin_input_handler)
-        - [`multiplexed_pin_output_handler`](#multiplexed_pin_output_handler)
+        - [`multiplexed_pin_input_handler`](#multiplexedpininputhandler)
+        - [`multiplexed_pin_output_handler`](#multiplexedpinoutputhandler)
       - [2.1.4 Setting the Callback Function](#214-setting-the-callback-function)
       - [2.1.5 Configuring the Pins](#215-configuring-the-pins)
       - [2.1.6 MCC-Generated APIs](#216-mcc-generated-apis)
@@ -742,5 +742,3 @@ This chapter shows how to use the MPLAB® X IDE to program an AVR® device with 
     - [2.3 Demo](#23-demo)
     - [2.4 Summary](#24-summary)
   - [Single pin LED and Button - Menu](#single-pin-led-and-button---menu)
-  - [How to Program Curiosity Nano board](#how-to-program-curiosity-nano-board)
-  - [Menu](#menu)
